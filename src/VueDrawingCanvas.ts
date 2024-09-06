@@ -259,6 +259,7 @@ export default /*#__PURE__*/defineComponent({
     },
     draw(event: Event) {
       if (this.drawing) {
+        console.log("draw")
         if (!this.context) {
           this.setContext();
         }
